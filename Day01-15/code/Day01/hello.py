@@ -17,6 +17,10 @@ python3 hello.py
 
 print('hello, world!')
 # print("你好,世界！")
+# 解释框内的任何东西不会执行
 print('你好', '世界')
+# 字符串之间默认以空格连接
 print('hello', 'world', sep=', ', end='!')
+# 字符串之间以sep的值连接，以end中的值结尾
 print('goodbye, world', end='!\n')
+# end中默认存在换行符\n，如果自定义值的话没换行符则输出于同一行。

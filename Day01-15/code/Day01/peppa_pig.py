@@ -2,6 +2,7 @@
 绘制小猪佩奇
 """
 from turtle import *
+# 允许直接将turtle内的方法引用
 
 
 def nose(x,y):
@@ -12,6 +13,7 @@ def nose(x,y):
     pendown()
     # 设置海龟的方向（0-东、90-北、180-西、270-南）
     setheading(-30)
+    # 设置朝向
     begin_fill()
     a = 0.4
     for i in range(120):
